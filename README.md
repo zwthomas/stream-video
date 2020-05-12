@@ -1,5 +1,7 @@
 # stream-video
 
+![](./stream.gif)
+
 Can stream from OBS with 
 
 Server: `rtmp://localhost/live/`

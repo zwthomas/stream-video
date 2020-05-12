@@ -1,12 +1,18 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import VideoPlayer from "./components/VideoPlayer"
+import {ReactFlvPlayer} from 'react-flv-player'
 
 function App() {
+
   return (
     <div className="App">
-      <VideoPlayer />
+      <ReactFlvPlayer
+          url = "http://localhost:8000/live/testing.flv"
+          heigh = "100%"
+          width = "100%"
+          isMuted={true}
+        />
     </div>
   );
 }
